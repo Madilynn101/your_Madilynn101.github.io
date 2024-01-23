@@ -1,0 +1,122 @@
+#pg {
+    font-family: cursive;
+    text-align: center;
+}
+
+#pgc-1 {
+    background-color: #ffc800;
+    color: #222;
+    font-family: cursive;
+    text-align: center;
+    padding: 24px;
+}
+#pgc-2 {
+    background-color: #fd8b7c;
+    color: #222;
+    font-family: cursive;
+    text-align: center;
+    padding: 24px;
+}
+#pgc-3 {
+    background-color: #c0564b;
+    color: #222;
+    font-family: cursive;
+    text-align: center;
+    padding: 24px;
+}
+#sf {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+#sf-1 {
+    background-color: #009719;
+    color: #222;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 24px;
+}
+#sf-2 {
+    background-color: #9e6e1f;
+    color: #222;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 24px;
+}
+#sf-3 {
+    background-color: #d8a151;
+    color: #222;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 24px;
+}
+#sf-4 {
+    background-color: #ff9600;
+    color: #222;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 24px;
+}
+#vl {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+#vl-1 {
+    background-color: #cd4f6e;
+    color: #222;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+#vl-2 {
+    background-color: #e59eb0;
+    color: #222;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+#vl-3 {
+    background-color: #cd5472;
+    color: #222;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+#vl-4 {
+    background-color: #6c0f26;
+    color: #222;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+#ps {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+#ps-1 {
+    background-color: #d8b4d8;
+    color: #222;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding: 24px;
+}
+#ps-2 {
+    background-color: #c06bc1;
+    color: #222;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding: 24px;
+}
+#ps-3 {
+    background-color: #ab19ad;
+    color: #222;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding: 24px;
+}
+#ps-4 {
+    background-color: #900e90;
+    color: #222;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding: 24px;
+}
