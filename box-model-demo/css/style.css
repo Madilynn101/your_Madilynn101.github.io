@@ -9,32 +9,34 @@ div {
     background-color: lightcyan;
 }
 p {
-    border: 20px dashed blue;
     margin: 68px;
     padding: 48px 60px;
     background-color: cornflowerblue;
+    border-radius: 50px 0px;
 }
 a {
     background-color: blanchedalmond;
-    margin: 25px;
+    padding: 15px;
+    display: inline-block;
 }
 /*
         2 value splits it across vertical and horizontal.
-        the first value is applied to the top and bottom.
-        the second value  is applied to the left and rigt.
+        The first value is applied to the top and bottom.
+        The second value  is applied to the left and rigt.
     
         margin: 50px 150px;
     
         3 value splits it across top. left/right, and bottom.
-        the first value is applied to the top. the second value is applied to 
-        the left and right. the tired value is appplied to the bottom
+        The first value is applied to the top. the second value is applied to 
+        The left and right. the tired value is appplied to the bottom
     
         margin: 25px 280px 50px;
     
         4 value spilts them across all four side.
-        the first value is the  the top
-        the second value is the right 
-        the third value 
+        The first value is the  the top.
+        The second value is the right.
+        The third value is the bottom.
+        The fourth value is the left.
     
         margin: 10xp 50xp 30xp 5px;
 */
