@@ -1,0 +1,133 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Upside-down Tetris assignment.
+
+    Good luck, and have fun!
+*/
+.tetris-block{
+    padding: 25px;
+    border-width: 12px;
+    border-style: ridge;
+    display: inline-block;
+}
+
+.lav {
+    background-color: lavender;
+    border-color: lavenderblush;
+}
+
+.blue {
+    background-color: blue;
+    border-color: blue;
+}
+
+.orange {
+    background-color: orange;
+    border-color: orange;
+}
+
+.coral {
+    background-color: coral;
+    border-color: coral;
+}
+
+.teal {
+    background-color: teal;
+    border-color: teal;
+}
+
+.blush {
+    background-color: #E790B1;
+    border-color: #F6B8C6;
+}
+.red {
+    background-color: red;
+    border-color: red;
+}
+
+.green {
+    background: green;
+    border-color: greenyellow;
+}
+
+.yellow {
+    background-color: yellow;
+    border-color: yellow;
+}
+
+.caramel {
+    background-color: #D08247;
+    border-color: #C17232;
+}
+
+.torquis {
+    background-color: #6CDFD2;
+    border-color: #4FDEBD;
+}
+
+.empty {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.vanilla {
+    background-color: #E2D398;
+    border-color: #F0EEBC;
+}
+
+.mint {
+    background-color: #32C294;
+    border-color: #47D1A3;
+}
+
+.skyblue {
+    background-color: #81BECC;
+    border-color: #65C3C9;
+}
+
+.malachite {
+    background-color: #1FD665;
+    border-color: #35E375;
+}
+
+.brightpink {
+    background-color: #DE6A78;
+    border-color: #E69A8E;
+}
+
+.redviolet {
+    background-color: #D61E90;
+    border-color: #E334A3;
+}
+
+.empty {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.empty {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.peach {
+    background-color: #F6B88C;
+    border-color: #F6A37A;
+}
+
+.bittersweet {
+    background-color: #F55A55;
+    border-color: #F76D6B;
+}
+
+.empty {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.teagreen {
+    background-color: #BBFAA2;
+    border-color: #BFFBB8;
+}
