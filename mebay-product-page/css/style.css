@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#grid-layout {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    grid-template-areas: 
+        "header header"
+        "sidebar content"
+    ;
+}
+
+#header {
+    grid-area: header;
+    text-align: center;
+    border-bottom: 1px solid #aaa;
+    margin-bottom: 34px;
+}
+#header a {
+    text-decoration: none;
+}
+#header #me {
+    color: #0015ff;
+}
+#header #tube {
+    color: rgb(111, 0, 255);
+    background-color: rgb(255, 189, 83);
+    padding: 4px;
+    border-radius: 12px;
+}
+
+#img img {
+    width: 100%;
+    padding: 0px 24px;
+}
+
+#p-i-c h2, #p-i-c, .price-info , .bottom, .s-d-r {
+    border-bottom: 1px solid #aaa;
+    margin: 0px;
+    padding-bottom: 12px;
+}
+
+h2 {
+    display: block;
+    font-size: 26px;
+    margin-block-start: 6px;
+    margin-block-end: 6px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.bold {
+    font-weight: bold;
+}
+.big-bold {
+    font-size: 32px;
+}
+.small {
+    color: #626262;
+    font-size: 15px;
+}
+.red {
+    color: red;
+}
+
+.bulk {
+    display: flex;
+}
+.bulk-saving {
+    text-align: center;
+    border: 1px solid #aaa;
+    border-radius: 24px;
+    padding: 12px 40px ;
+    margin: 5px;
+}
+.bulk-option div {
+    margin: 4px 0px;
+}
+
+.dark, .light, .empty {
+    border-radius: 24px;
+    padding: 12px;
+    min-width: 200px;
+    text-align: center;
+    margin: 12px 0px;
+}
+.dark {
+    background-color: #0053a0;
+    color: white;
+}
+.light {
+    background-color: #3498ca;
+    color: white;
+}
+.empty{
+    border: 1px solid #3665f3;
+    color: #3665f3;
+}
+
+.s-d-r .label {
+    margin-right: 24px;
+}
+h3 {
+    display: block;
+    font-size: 20px;
+    margin-block-start: 1px;
+    margin-block-end: 1px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+#sidebar {
+    grid-area: sidebar;
+}
+.shop .seller h3 {
+    margin: 0px 0px 8px;
+}
+.shop .seller p {
+    margin: 12px 0px;
+}
+.shop{
+        border: 1px solid #aaa;
+        border-radius: 12px;
+        padding: 24px;
+        margin: 0px 24px 18px;
+}
+.seller{
+    border: 1px solid #aaa;
+    border-radius: 12px;
+    padding: 24px;
+    margin: 0px 24px 18px;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
