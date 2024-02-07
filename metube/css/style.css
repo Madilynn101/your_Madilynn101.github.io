@@ -55,7 +55,6 @@ body {
     border-radius: 12px;
 }
 
-
 #main {
     grid-area: content;
     display: flex;
@@ -69,7 +68,7 @@ body {
     margin-bottom: 24px;
 }
 
-img {
+.imgs {
     width: 250px;
     border-radius: 15px;
     aspect-ratio: 16 / 9;
