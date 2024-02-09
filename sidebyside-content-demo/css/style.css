@@ -30,7 +30,6 @@ body {
     margin: 36px;
     text-align: center;
 }
-
 .card h3 {
     font-size: 36px;
     margin: 0px;
@@ -38,4 +37,45 @@ body {
 .card p {
     font-size: 24px;
     margin: 24px 0px 0px;
+}
+
+#main-section {
+    background: 
+        radial-gradient(at top left, #d86fee, #8122ed)
+    ;
+    padding: 48px;
+}
+
+.side-by-side {
+    display: flex;
+    align-items: center;
+    margin: 48px 0px;
+}
+
+.side-by-side .image-container {
+    flex: 1;
+}
+.side-by-side .text-container {
+    flex: 1;
+    padding: 36px;
+}
+
+.side-by-side .image-container img {
+    width: 100%;
+}
+
+.side-by-side .text-container h3 {
+    font-size: 48px;
+}
+
+.side-by-side .text-container a {
+    display: inline-block;
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #3f0791;
+    color: white;
+    padding: 24px 48px;
+    border-radius: 48px;
+    box-shadow: -4px 4px 5px #1115;
 }
