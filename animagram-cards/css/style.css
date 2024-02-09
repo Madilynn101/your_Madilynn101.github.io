@@ -25,6 +25,7 @@ body {
 .card-style-2 {
     background-color: white;
     border-radius: 36px;
+    max-width: 350px;
     padding: 24px;
     margin: 16px;
 }
