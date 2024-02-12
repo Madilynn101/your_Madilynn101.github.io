@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#hero-1 {
+    background-image: url(../images/explostion.webp);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero-1 .hero-content {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 20vh;
+}
+
+#hero-1 h1 {
+    font-size: 8vw;
+    margin: 0px 5vw 5vh 0px;
+}
+#hero-1 h3 {
+    font-size: 3vw;
+    margin: 0px 5vw 0px 0px;
+}
+#hero-1 a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: rgb(255, 160, 82);
+    color: #000000;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+}
+
+.spacer {
+    height: 50vh;
+    background-image: url(../images/color-love.webp);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#hero-2 {
+    background-image: url(../images/color-palette.avif);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-self: center;
+}
+
+#hero-2 h2 {
+    font-size: 8vw;
+    margin: 0px 5vw 5vh 0px;
+}
+#hero-2 h4 {
+    font-size: 3vw;
+    margin: 0px 5vw 0px 0px;
+}
+#hero-2 a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: #fe9838;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+}
+
+#hero-3 {
+    background-image: url(../images/your-color.webp);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#hero-3 .hero-content {
+    color: rgb(255, 173, 129);
+    padding-top: 20vh;
+}
+
+#hero-3 h2 {
+    font-size: 8vw;
+    margin: 0px 5vw 5vh 0px;
+}
+#hero-3 h4 {
+    font-size: 3vw;
+    margin: 0px 5vw 0px 0px;
+}
+#hero-3 a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: rgb(255, 191, 72);
+    color: #000000;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+}
