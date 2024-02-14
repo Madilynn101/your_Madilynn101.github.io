@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@100..900&display=swap');@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#hero-1 {
+    background-image: url(../images/left\ and\ right\ brain.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hero-1 h1 {
+    font-size: 15vw;
+    margin: 0px 5vw 5vh 0px;
+    padding-top: 20vh;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+}
+#hero-1 h2 {
+    font-size: 8vw;
+    margin: 0px 5vw 5vh 0px;
+    font-family: "Cormorant Infant", serif;
+    font-style: italic;
+}
+#hero-1 .hero-content {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 20vh;
+}
+
+.spacer {
+    height: 50vh;
+    background-image: url(../images/feilds.avif);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#centered-column {
+    width: 90vw;
+    max-width: 800px;
+    margin: 48px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 36px;
+    justify-content: center;
+} 
+
+.card {
+    width: 350px;
+    border: 2px solid #ffb87a;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: -4px 4px 12px #ffbc75;
+    background: linear-gradient(
+        -50deg, 
+        #ffaa0b, 
+        #ffe7c8, 
+        #ffbc63
+    );
+    display: flex;
+    flex-direction: column;
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+
+}
+
+.card h2 {
+    font-size: 36px;
+    margin-top: 12px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: x-large;
+}
+
+.card p {
+    font-size: 18px;
+    flex: 1;
+    text-align: center;
+    font-family: "Cormorant Infant", serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.card a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Cormorant Infant", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: bold;
+    background-color: rgb(255, 207, 111);
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    border: 3px solid #ffa91f;
+    transition:
+        background-color .5s,
+        color .5s
+    ;
+}
+
+.card a:hover {
+    background-color: transparent;
+    border: 3px solid rgb(255, 189, 6);
+    color: rgb(193, 119, 0);
+}
+
+#gallery {
+    margin: 48px auto;
+    text-align: center;
+}
+/*go to gallery demo and look at what you can change*/
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 800px; 
+    padding: 24px;
+}
+.gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#gallery h1 {
+    font-family: "Inter", sans-serif;
+    font-size: xx-large;
+    font-size: 70px;
+}
+
+#gallery h2 {
+    font-family: "Cormorant Infant", serif;
+    font-style: italic;
+    font-size: 60px;
+
+}
