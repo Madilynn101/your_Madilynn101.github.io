@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#navbar {
+    background: rgb(255, 174, 43);
+    display: flex;
+    align-items: center;
+}
+
+#navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(64, 46, 0);
+    padding: 24px;
+}
+
+#dropdown-container a:hover {
+    background: burlywood;
+}
+
+#navbar #logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 36px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+}
+
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: 
+        opacity 0.25s,
+        visibility 0.25s;
+}
+
+.dropdown-container:last-child .dropdown-menu {
+    right: 0px;
+}
+
+.dropdown-container:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+.dropdown-menu a {
+    background-color:rgb(255, 169, 56);
+    width: 100%;
+    min-width: 200px;
+}
+
+#navbar .dropdown-menu a:hover {
+    background: burlywood;
+}
+
+#hero-4 {
+    background-image: url(../images/love.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero-4 .hero-content {
+    color: white;
+    text-align: center;
+    padding-top: 20vh;
+}
+
+#hero-4 h2 {
+    font-size: 8vw;
+    margin: 0px 5vw 5vh 0px;
+}
+#hero-4 h4 {
+    font-size: 3vw;
+    margin: 0px 5vw 0px 0px;
+}
+#hero-4 a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: white;
+    color: #333;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+}
+.spacer {
+    height: 50vh;
+    background-image: url(../images/paw.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.single-column {
+    width: 50%;
+    min-width: 500px;
+    max-width: 800px;
+    margin: 0px auto;
+}
+
+.bio {
+    background-color: #ffe1ebd8;
+    border-radius: 50px;
+}
+
+.bio h1 {
+    font-size: 80px;
+    font-family: "Cormorant Infant", serif;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 0px;
+    padding: 20px;
+}
+
+.bio p {
+    font-size: 35px;
+    font-family: "Cormorant Infant", serif;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+    padding: 26px;
+    margin: 20px;
+}
+
+.bio img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image {
+    height: 900px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.light-container {
+    background-image: url(../images/paw.jpeg);
+    padding: 48px 0px;
+}
