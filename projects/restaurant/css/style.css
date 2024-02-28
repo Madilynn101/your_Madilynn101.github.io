@@ -133,6 +133,134 @@ body {
     padding: 48px 0px;
 }
 
+.food, 
+.food3,
+.food4, 
+.food5, 
+.food6, 
+.food7,
+.food8,
+.food9,
+.food10 {
+    width: 80%;
+    max-width: 1200px;
+    padding: 26px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.bio2,
+.bio3,
+.bio4,
+.bio5,
+.bio6,
+.bio7,
+.bio8,
+.bio9,
+.bio10 {
+    background-color: #ffe1ebd8;
+    border-radius: 50px;
+}
+
+.bio2 h1,
+.bio3 h1,
+.bio4 h1,
+.bio5 h1,
+.bio6 h1,
+.bio7 h1,
+.bio8 h1,
+.bio9 h1,
+.bio10 h1 {
+    font-size: 80px;
+    font-family: "Cormorant Infant", serif;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 0px;
+    flex-basis: 100%;
+}
+
+.bio2 h3,
+.bio3 h3,
+.bio4 h3,
+.bio5 h3,
+.bio6 h3,
+.bio7 h3,
+.bio8 h3,
+.bio9 h3,
+.bio10 h3 {
+    font-size: 80px;
+    font-family: "Cormorant Infant", serif;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+    margin: 0px;
+    flex-basis: 100%;
+}
+
+.bio2 p,
+.bio3 p,
+.bio4 p,
+.bio5 p,
+.bio6 p,
+.bio7 p,
+.bio8 p,
+.bio9 p,
+.bio10 p {
+    font-size: 35px;
+    font-family: "Cormorant Infant", serif;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+    flex: 1;
+}
+
+.bio2 img,
+.bio3 img,
+.bio4 img,
+.bio5 img,
+.bio6 img,
+.bio7 img,
+.bio8 img,
+.bio9 img,
+.bio10 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 26px;
+}
+
+.image2,
+.image3,
+.image4,
+.image5,
+.image6,
+.image7,
+.image8,
+.image9,
+.image10 {
+    flex: 1 181px;
+    height: 500px;
+    border-radius: 26px;
+}
+
+.menu,
+.menu3,
+.menu4,
+.menu5,
+.menu6,
+.menu7,
+.menu8,
+.menu9,
+.menu10 {
+    background-image: url(../images/mask\ pattern.jpeg);
+    padding: 48px 0px;
+}
+
+
 
 #footer {
     background: linear-gradient(to bottom, #E23492, #d31d7e);
