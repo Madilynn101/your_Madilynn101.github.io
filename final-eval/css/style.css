@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: #3535f8;
+}
+
+.party {
+    width: 50%;
+    min-width: 500px;
+    max-width: 800px;
+    margin: 0px auto;
+}
+
+.opening {
+    background: linear-gradient(to bottom, red, darkred);
+    padding: 48px 0px;
+}
+
+.party h1, .party h2 {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 40px;
+}
+
+#football-team {
+    display: flex;
+    gap: 36px;
+    justify-content: center;
+} 
+
+#football-team {
+    background-image: url(../images/football.jpeg);
+    padding: 48px 0px;
+}
+
+.football {
+    width: 350px;
+    border: 2px solid #2500b8;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: -4px 4px 12px #001841;
+    background-color: #2020ed;
+    display: flex;
+    flex-direction: column;
+}
+
+.football img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+
+}
+
+#football-team h2 {
+    font-size: 89px;
+    margin: 60px;
+    margin-top: 300px;
+    color: aliceblue;
+}
+
+.football h2 {
+    font-size: 36px;
+    margin-top: 12px;
+    margin-bottom: 0px;
+}
+
+.football p {
+    font-size: 34px;
+    flex: 1;
+}
+
+#foot {
+    background-image: url(../images/football.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 58px;
+    text-align: center;
+}
+
+p {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 48px;
+    text-align: center;
+}
+
+#foot .ball {
+    color: white;
+    text-align: center;
+    padding-top: 20vh;
+}
+
+#foot h2 {
+    font-size: 8vw;
+    margin: 0px 5vw 5vh 0px;
+}
+#foot h4 {
+    font-size: 3vw;
+    margin: 0px 5vw 0px 0px;
+}
+#foot a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: white;
+    color: #333;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+}
