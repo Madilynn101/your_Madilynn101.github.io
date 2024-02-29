@@ -295,3 +295,46 @@ body {
 #footer-columns-navbar a {
     padding: 8px 0px;
 }
+
+@media screen and (max-width: 480px) {
+    #restaurant h1 {
+        font-size: 36px;
+    }
+
+    #navbar, #hero {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    #navbar a {
+        flex:  200px;
+    }
+
+    .image {
+        height: 800px;
+    }
+
+    .light-container p {
+        font-size: 24px;
+    }
+
+    #restaurant {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #r h1, #r h3 {
+        font-size: 32px;
+    }
+
+    #r p {
+        font-size: 23px;
+        margin-top: 0px;
+    }
+
+    #r img {
+        height: 500px;
+        margin-bottom: 0px;
+    }
+}
